@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;1,400;1,700&family=Roboto:wght@500&display=swap");
+:root {
+  --cta-color: #544af4;
+  --primary-color: #161617;
+  --secondary-color: #5d585d;
+  --success-color: #3c8855;
+  --warning-color: #f5c118;
+  --error-color: #dc3545;
+  --info-color: #5dcaf0;
+}
+
+* {
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+ul {
+  list-style: none;
+}
+
+/* Header start */
+.header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.8rem;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  box-shadow: 0 3px 10px var(--secondary-color);
+}
+.header-logo {
+  color: var(--cta-color);
+  font-weight: 900;
+}
+.header-logo span {
+  margin-right: 1rem;
+}
+
+.header-links {
+  margin-left: auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.header-link {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+/* Header End */
+
+/* Landing page Start */
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+}
+.brand {
+  color: var(--cta-color);
+}
+.main h1 {
+  font-size: 3rem;
+  margin: 1rem;
+  padding: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.main p {
+  color: var(--secondary-color);
+}
+.main p,
+.main a {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+/* Landing page End */
